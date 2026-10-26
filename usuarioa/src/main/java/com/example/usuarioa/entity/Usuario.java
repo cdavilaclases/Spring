@@ -37,6 +37,19 @@ public class Usuario implements Serializable{
 	
 	@Column(name="email")
 	private String email;
+	
+	@Column(name="tipo")
+	private Integer tipo;
+	
+	
+
+	public Integer getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(Integer tipo) {
+		this.tipo = tipo;
+	}
 
 	public int getIdusuario() {
 		return idusuario;
